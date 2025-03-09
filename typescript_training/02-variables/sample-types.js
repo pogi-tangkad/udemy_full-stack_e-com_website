@@ -1,7 +1,7 @@
-var found = true;
-var grade = 88.6;
-var firstName = "Pogi";
-var lastName = "Tangkad";
+let found = true;
+let grade = 88.6;
+let firstName = "Pogi";
+let lastName = "Tangkad";
 // let's break it
 /*
 found = "hello";
@@ -12,4 +12,4 @@ console.log(found);
 console.log("The grade is " + grade);
 console.log("The name is " + firstName + " " + lastName);
 // use template strings
-console.log("Hi ".concat(firstName, " ").concat(lastName, "!"));
+console.log(`Hi ${firstName} ${lastName}!`);

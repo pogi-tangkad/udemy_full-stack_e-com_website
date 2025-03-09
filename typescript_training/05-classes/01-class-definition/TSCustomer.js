@@ -1,35 +1,26 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.TSCustomer = void 0;
-var TSCustomer = /** @class */ (function () {
+class TSCustomer {
     //automatic constructor
-    function TSCustomer(_firstName, _lastName) {
+    constructor(_firstName, _lastName) {
         this._firstName = _firstName;
         this._lastName = _lastName;
     }
-    Object.defineProperty(TSCustomer.prototype, "firstName", {
-        //sets and gets
-        get: function () {
-            return this._firstName;
-        },
-        set: function (theFirst) {
-            this._firstName = theFirst;
-        },
-        enumerable: false,
-        configurable: true
-    });
-    Object.defineProperty(TSCustomer.prototype, "lastName", {
-        get: function () {
-            return this._lastName;
-        },
-        set: function (theLast) {
-            this._lastName = theLast;
-        },
-        enumerable: false,
-        configurable: true
-    });
-    return TSCustomer;
-}());
+    //sets and gets
+    get firstName() {
+        return this._firstName;
+    }
+    set firstName(theFirst) {
+        this._firstName = theFirst;
+    }
+    get lastName() {
+        return this._lastName;
+    }
+    set lastName(theLast) {
+        this._lastName = theLast;
+    }
+}
 exports.TSCustomer = TSCustomer;
 /*
 let myCustomer3: TSCustomer = new TSCustomer("Pogi", "Tangkad");

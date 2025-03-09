@@ -1,11 +1,10 @@
-var sportsOne = ["Golf", "Cricket", "Tennis", "Soccer"];
-for (var i = 0; i < sportsOne.length; i++) {
+let sportsOne = ["Golf", "Cricket", "Tennis", "Soccer"];
+for (let i = 0; i < sportsOne.length; i++) {
     console.log(sportsOne[i]);
 }
-for (var _i = 0, sportsOne_1 = sportsOne; _i < sportsOne_1.length; _i++) {
-    var tempSport = sportsOne_1[_i];
+for (let tempSport of sportsOne) {
     if (tempSport == "Cricket") {
-        console.log("My least favorite sport is ".concat(tempSport));
+        console.log(`My least favorite sport is ${tempSport}`);
     }
     else {
         console.log(tempSport);
