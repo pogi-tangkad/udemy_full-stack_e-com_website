@@ -1,4 +1,4 @@
-"use strict";
+
 Object.defineProperty(exports, "__esModule", { value: true });
 var Shape_1 = require("./Shape");
 var Circle_1 = require("./Circle");

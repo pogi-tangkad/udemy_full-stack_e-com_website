@@ -1,4 +1,4 @@
-"use strict";
+
 Object.defineProperty(exports, "__esModule", { value: true });
 var TSCustomer_1 = require("./TSCustomer");
 var newCustomer = new TSCustomer_1.TSCustomer("Kevin", "Repking");
